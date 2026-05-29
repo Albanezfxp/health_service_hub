@@ -10,6 +10,7 @@ import { MedicoEfetivoModule } from './medico-efetivo.module';
 import { MedicoLotacaoModule } from './medico-lotacao.module';
 import { MedicoResidenteModule } from './medico-residente.module';
 import { RequisicaoEquipamentoModule } from './requisicao-equipamento.module';
+import { UserModule } from './user.module';
 
 @Module({
   imports: [
@@ -27,6 +28,7 @@ import { RequisicaoEquipamentoModule } from './requisicao-equipamento.module';
     MedicoLotacaoModule,
     MedicoResidenteModule,
     RequisicaoEquipamentoModule,
+    UserModule,
   ],
 })
 export class AppModule {}
